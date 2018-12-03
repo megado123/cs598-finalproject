@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generated for XML FileA -->
+<!ELEMENT consumerComplaints (complaint+)>
+<!ELEMENT complaint ((event, event, product, issue, consumerNarrative?, company, submitted,response) | (company, event, submitted, issue, product, event, response))>
+<!ELEMENT event EMPTY>
+<!ELEMENT product (productType,subproduct?)>
+<!ELEMENT productType (#PCDATA)>
+<!ELEMENT subproduct (#PCDATA)>
+<!ELEMENT issue (issueType, subissue?)>
+<!ELEMENT issueType (#PCDATA)>
+<!ELEMENT subissue (#PCDATA)>
+<!ELEMENT consumerNarrative (#PCDATA)>
+<!ELEMENT company (companyName,companyState,companyZip)>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT companyState (#PCDATA)>
+<!ELEMENT companyZip (#PCDATA)>
+<!ELEMENT submitted EMPTY>
+<!ELEMENT response (publicResponse?, responseType)>
+<!ELEMENT responseType (#PCDATA)>
+<!ELEMENT publicResponse (#PCDATA)>
+
+
+<!ATTLIST complaint NMTOKEN CDATA #REQUIRED>
+<!ATTLIST event type (received | sentToCompany) #REQUIRED >
+<!ATTLIST event date CDATA #REQUIRED>
+<!ATTLIST submitted via (Phone|Referral|Web) #REQUIRED>
+<!ATTLIST response timely (Y|N) #REQUIRED>
+<!ATTLIST response consumerDisputed (Y|N) #REQUIRED>
+
+
+
+
+
+
+
+
+
+
+
+

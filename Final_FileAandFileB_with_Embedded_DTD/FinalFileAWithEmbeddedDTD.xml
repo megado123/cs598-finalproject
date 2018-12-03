@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ConsumerComplaints [
+<!ELEMENT ConsumerComplaints (complaint)>
+<!ELEMENT complaint (Complaint+)>
+<!ELEMENT Complaint (id, product, issue, company, response, consumerNarrative?, submissionType, sentToCompanyDate, receivedDate)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT product (productType, subProduct?)>
+<!ELEMENT subProduct (#PCDATA)>
+<!ELEMENT productType (#PCDATA)>
+<!ELEMENT issue (issueType, subIssue?)>
+<!ELEMENT issueType (#PCDATA)>
+<!ELEMENT subIssue (#PCDATA)>
+<!ELEMENT company (companyName, companyState, companyZip)>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT companyState (#PCDATA)>
+<!ELEMENT companyZip (#PCDATA)>
+<!ELEMENT response (timely, consumerDisputed, responseType, publicResponse?)>
+<!ELEMENT timely (#PCDATA)>
+<!ELEMENT consumerDisputed (#PCDATA)>
+<!ELEMENT responseType (#PCDATA)>
+<!ELEMENT publicResponse (#PCDATA)>
+<!ELEMENT consumerNarrative (#PCDATA)>
+<!ELEMENT submissionType (#PCDATA)>
+<!ELEMENT sentToCompanyDate (#PCDATA)>
+<!ELEMENT receivedDate (#PCDATA)>
+]>
+
+<ConsumerComplaints>
+  <complaint>
+    <Complaint>
+      <id>14038</id>
+      <product>
+        <productType>Mortgage</productType>
+        <subProduct>Other mortgage</subProduct>
+      </product>
+      <issue>
+        <issueType>Loan servicing, payments, escrow account</issueType>
+      </issue>
+      <company>
+        <companyName>U.S. BANCORP</companyName>
+        <companyState>AZ</companyState>
+        <companyZip>85008</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>Y</consumerDisputed>
+        <responseType>Closed without relief</responseType>
+      </response>
+      <submissionType>Referral</submissionType>
+      <sentToCompanyDate>2012-01-22</sentToCompanyDate>
+      <receivedDate>2012-01-17</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>2112558</id>
+      <product>
+        <productType>Debt collection</productType>
+        <subProduct>Medical</subProduct>
+      </product>
+      <issue>
+        <issueType>Continued attempts to collect debt not owed</issueType>
+        <subIssue>Debt is not mine</subIssue>
+      </issue>
+      <company>
+        <companyName>Round Two Recovery</companyName>
+        <companyState>OK</companyState>
+        <companyZip>73135</companyZip>
+      </company>
+      <response>
+        <timely>N</timely>
+        <consumerDisputed>N</consumerDisputed>
+        <responseType>Untimely response</responseType>
+      </response>
+      <consumerNarrative>I am a veteran widow whom is a recipient of Maryland State Medicaid and&#xD;
+            have been for several years. Therefore, the State is responsible for my health bills at&#xD;
+            XXXX cost to me.</consumerNarrative>
+      <submissionType>Web</submissionType>
+      <sentToCompanyDate>2016-09-15</sentToCompanyDate>
+      <receivedDate>2016-09-15</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>2327502</id>
+      <product>
+        <productType>Credit reporting</productType>
+      </product>
+      <issue>
+        <issueType>Incorrect information on credit report</issueType>
+        <subIssue>Account status</subIssue>
+      </issue>
+      <company>
+        <companyName>Experian Information Solutions Inc.</companyName>
+        <companyState>NY</companyState>
+        <companyZip>10020</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>N</consumerDisputed>
+        <responseType>Closed with non-monetary relief</responseType>
+        <publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+      </response>
+      <consumerNarrative>Checked my credit report after filing complaint with CFPB on XXXX. Was&#xD;
+            finally able to get access to the dispute forms and the XXXX XXXX account scheduled for&#xD;
+            deletion XX/XX/XXXX2017 was still on record. After already registering with my report&#xD;
+            number, name and social security and placing the dispute in the " dispute cart '', when&#xD;
+            I attempted to upload as instructed, I was taken to another form which requested the&#xD;
+            same ( and more ) information which was already a matter of record in order to get&#xD;
+            access to the report in the first place. Screenshots attached. Designed to&#xD;
+            discourage?</consumerNarrative>
+      <submissionType>Web</submissionType>
+      <sentToCompanyDate>2017-02-03</sentToCompanyDate>
+      <receivedDate>2017-02-03</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>2356421</id>
+      <product>
+        <productType>Bank account or service</productType>
+        <subProduct>Savings account</subProduct>
+      </product>
+      <issue>
+        <issueType>Deposits and withdrawals</issueType>
+      </issue>
+      <company>
+        <companyName>Wells Fargo &amp; Company</companyName>
+        <companyState>AZ</companyState>
+        <companyZip>85043</companyZip>
+      </company>
+      <response>
+        <timely>N</timely>
+        <consumerDisputed>N</consumerDisputed>
+        <responseType>Closed with explanation</responseType>
+        <publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+      </response>
+      <consumerNarrative>I deposited what turned out to be a fraudulent check drawn on Wells Fargo&#xD;
+            by mobile deposit to my savings account at Wells Fargo on XXXX at XXXX XXXX Time for&#xD;
+            {$2400.00}. They gave me full availability of the {$2400.00} on XXXX at which time I&#xD;
+            withdrew {$2200.00} and the bank then returned the deposited check on XXXX creating an&#xD;
+            overdraft in my account of over {$2000.00}. Wells Fargo rep explained that they do not&#xD;
+            process mobile deposits until late the night one day after the deposit was made. This&#xD;
+            means they honored the withdrawal request before they processed the transaction. That&#xD;
+            gave me the false assurance that the deposited check was good. The cash is gone to the&#xD;
+            perpetrator and now they want me to cover the overdraft. The fact they wait a whole&#xD;
+            business day before processing these deposits is for their convenience and the consumer&#xD;
+            should not be held accountable for the consequences of this delay. Also UCC 4-301 ( b )&#xD;
+            addresses the final payment of on-us checks deposited and states that the payor bank has&#xD;
+            until midnight of the next banking day to decide whether to honor the check. If they do&#xD;
+            n't act by midnight deadline, they lose the right to dishonor the check. 4-214 ( c ),&#xD;
+            4-301 ( b ). The mobile deposit confirmation states " The following mobile deposit was&#xD;
+            made on XXXX at XXXX Time '' and her account statement shows the deposit under the&#xD;
+            posting date of XXXX. Therefore, applying UCC 4-214 ( c ), the deposited check drawn on&#xD;
+            Wells Fargo should have been returned and charged back under the posting date of XXXX.&#xD;
+            It was not. The chargeback is posted under processing date of XXXX.</consumerNarrative>
+      <submissionType>Web</submissionType>
+      <sentToCompanyDate>2018-02-23</sentToCompanyDate>
+      <receivedDate>2018-02-23</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>2364257</id>
+      <product>
+        <productType>Credit card</productType>
+      </product>
+      <issue>
+        <issueType>Other fee</issueType>
+      </issue>
+      <company>
+        <companyName>BARCLAYS BANK DELAWARE</companyName>
+        <companyState>MA</companyState>
+        <companyZip>19904</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>Y</consumerDisputed>
+        <responseType>Closed with explanation</responseType>
+        <publicResponse>Company has responded to the consumer and the CFPB and chooses not to provide a public response</publicResponse>
+      </response>
+      <consumerNarrative>Was a happy XXXX card member for years, in late XX/XX/2016 XXXX converted&#xD;
+            the card portfolio to Barclaycard ( XXXX ). We almost never carry a balance over, but we&#xD;
+            started to in XX/XX/XXXX and Barclay has been overcharging the interest expense every&#xD;
+            month. Instead of charging interest on the carried balance they charged it on the entire&#xD;
+            average balance. So if we charged {$3000.00} last month and carried {$3000.00} from&#xD;
+            previous months then they charged us 15 % of the {$6000.00} = {$75.00}, should have been&#xD;
+            {$37.00} in interest charges. They are double dipping, getting the interchange fee ( 1.5&#xD;
+            % of purchase, equal to an 18 % apr ), plus they are getting the interest on the&#xD;
+            purchases at 15 %, that is the equivalent of an 33 % interest charge. I feel this&#xD;
+            practice is very unethical, if not illegal. We converted, not by our choice, from XXXX&#xD;
+            to Barclaycard MasterCard, so if we leave we lose all the points we acquired in previous&#xD;
+            years. Completely unfair and is why the big financials have the hated reputation they&#xD;
+            have now. Hope you folks over there can investigate.</consumerNarrative>
+      <submissionType>Web</submissionType>
+      <sentToCompanyDate>2017-02-28</sentToCompanyDate>
+      <receivedDate>2017-02-28</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>596562</id>
+      <product>
+        <productType>Mortgage</productType>
+        <subProduct>Conventional adjustable mortgage</subProduct>
+      </product>
+      <issue>
+        <issueType>Loan servicing, payments, escrow account</issueType>
+      </issue>
+      <company>
+        <companyName>U.S. BANCORP</companyName>
+        <companyState>MN</companyState>
+        <companyZip>48322</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>N</consumerDisputed>
+        <responseType>Closed with monetary relief</responseType>
+      </response>
+      <submissionType>Phone</submissionType>
+      <sentToCompanyDate>2013-11-20</sentToCompanyDate>
+      <receivedDate>2013-11-13</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>759222</id>
+      <product>
+        <productType>Mortgage</productType>
+        <subProduct>Other mortgage</subProduct>
+      </product>
+      <issue>
+        <issueType>Loan modification,collection,foreclosure</issueType>
+      </issue>
+      <company>
+        <companyName>M&amp;T Bank Corporation</companyName>
+        <companyState>MI</companyState>
+        <companyZip>48382</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>Y</consumerDisputed>
+        <responseType>Closed with explanation</responseType>
+      </response>
+      <submissionType>Referral</submissionType>
+      <sentToCompanyDate>2014-03-17</sentToCompanyDate>
+      <receivedDate>2014-03-12</receivedDate>
+    </Complaint>
+    <Complaint>
+      <id>837784</id>
+      <product>
+        <productType>Student loan</productType>
+        <subProduct>non-federal student loan</subProduct>
+      </product>
+      <issue>
+        <issueType>Dealing with my lender or service</issueType>
+        <subIssue>Need information about my balance/terms</subIssue>
+      </issue>
+      <company>
+        <companyName>Navient Solutions, LLC</companyName>
+        <companyState>DE</companyState>
+        <companyZip>19802</companyZip>
+      </company>
+      <response>
+        <timely>Y</timely>
+        <consumerDisputed>N</consumerDisputed>
+        <responseType>Closed with monetary relief</responseType>
+      </response>
+      <submissionType>Web</submissionType>
+      <sentToCompanyDate>2014-05-06</sentToCompanyDate>
+      <receivedDate>2014-05-05</receivedDate>
+    </Complaint>
+  </complaint>
+</ConsumerComplaints>

@@ -1,0 +1,20 @@
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\bin\Debug\FinalProject2.exe.config
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\bin\Debug\FinalProject2.exe
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\bin\Debug\FinalProject2.pdb
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\obj\Debug\FinalProject2.csproj.CoreCompileInputs.cache
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\obj\Debug\FinalProject2.exe
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\obj\Debug\FinalProject2.pdb
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\bin\Debug\Newtonsoft.Json.dll
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\bin\Debug\Newtonsoft.Json.xml
+c:\users\a05v6zz\source\repos\FinalProject2\FinalProject2\obj\Debug\FinalProject2.csproj.CopyComplete
+C:\Users\a05v6zz\source\repos\FinalProject2\FinalProject2\obj\Debug\FinalProject2.csprojAssemblyReference.cache
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\bin\Debug\FinalProject2.exe.config
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\bin\Debug\FinalProject2.exe
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\bin\Debug\FinalProject2.pdb
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\obj\Debug\FinalProject2.csprojAssemblyReference.cache
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\obj\Debug\FinalProject2.csproj.CoreCompileInputs.cache
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\obj\Debug\FinalProject2.csproj.CopyComplete
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\obj\Debug\FinalProject2.exe
+C:\Users\a05v6zz\Documents\University of Illinois\CS 598 - Data Curration\github_temp\Code\FinalProject2\obj\Debug\FinalProject2.pdb
